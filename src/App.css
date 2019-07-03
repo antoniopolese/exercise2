@@ -1,0 +1,47 @@
+
+.listing {
+  padding-bottom: 50px;
+}
+
+.listing__title {
+  font-size: 23px;
+  text-align: center;
+  margin: 50px 0 20px;
+  text-transform: uppercase;
+}
+
+.listing__count {
+  display: block;
+  text-align: center;
+}
+
+.product {
+  width: 20%;
+  min-height: 350px;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  padding: 10px;
+}
+
+.product__image {
+  margin-bottom: 10px;
+}
+
+.product__price {
+  display: block;
+  color: #666;
+  margin-top: 5px;
+}
+
+.product__promo {
+  font-size: 11px;
+  display: block;
+  margin-top: 10px;
+  color: #e88f00;
+}
+
+.product__addcart, .product__delcart {
+  cursor: pointer;
+  margin-top: 10px; 
+}
