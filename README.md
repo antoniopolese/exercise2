@@ -1,3 +1,18 @@
+Feel free to use the javascript syntax and the framework you feel more confortable with (eg: jQuery, plain JS, Angular.js, Angular 2+, React etc).
+
+Write a simple single page application that acts as an e-commerce product listing page.
+
+Show a list of the available products; each with image, name, price, a possible "Buy one get one free" promotion and the add to cart button.
+Get the product list information from the API https://5c3c998d29429300143fe514.mockapi.io/api/v1/products
+
+Also implement an "in memory" cart functionality (no need to make API calls here, it's ok if you loose it after page refresh) with:
+- add product to cart
+- remove product from cart
+- show a cart recap info with: list of products in the cart and the total amount.
+
+There is no need for UI styles here. Markup should make sense though.
+<br/><br/>
+
 # Start Project
 in the project root:
 <pre>npm install</pre>
